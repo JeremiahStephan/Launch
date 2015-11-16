@@ -1,0 +1,51 @@
+/********************* 
+MEDIA QUERIES 
+*********************/
+@media screen and (max-width: 420px) {
+   .button {
+    border-radius: 0;
+    width: 100px;
+
+  }
+  .email {
+    margin-bottom: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 709px) {
+
+.body3, .body4 {
+    border-top: #757575 dashed 1px;
+  }
+  #col1-a, #col1-b, #col1-c {
+  border-bottom: #F0F6FB solid 1px;
+  }
+}
+
+@media screen and (min-width: 710px) {
+  .body2, .body3, .body4 {
+    width: 33.333%;
+  }
+  .body3, .body4 {
+    border-left: #757575 dashed 1px;
+  }
+  .col1 {
+    width: 33.333%;
+  }
+  #col1-a, #col1-b {
+    border-right: #F0F6FB solid 1px;
+  }
+} 
+
+/* Page will no longer resize and margins are added to both sides */
+
+@media screen and (min-width: 990px) {
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

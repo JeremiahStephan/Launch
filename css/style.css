@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;     
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+h5 {
+  font-style: italic;
+  color: #C1D9EE;
+}
+
+p {
+  color: #576366;
+  font-weight: 300;
+  text-align: left;
+}
+
+/********************* 
+MAIN CONTAINER
+*********************/
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  min-height: 150px;
+}
+
+/********************* 
+HEADER
+*********************/
+
+#container2 {
+  width: 100%;
+  padding: 10px;
+}
+
+.logo1 {
+  width: 75px;
+  min-height: 50px;
+  text-align: left;
+}
+
+.header1 {
+  width: 70%;
+  background-color: #FCFDFE;
+  font-weight: 700;
+  min-height: 50px;
+  text-align: left;
+}
+
+#pl-logo {
+  width: 60px;
+  height: 60px;
+}
+
+#title1 {
+  font-size: 20px;
+  color: #4D9DE0;
+}
+
+/********************* 
+Email Capture
+*********************/
+
+/* Input Field */
+.email{
+  font-size: 17px;
+  display: inline-block;
+  height: 40px;
+  padding: 5px 26px;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+/* button */
+.button {
+  background-color: #69cb95;
+  box-shadow: none; /* inset 0px -2px 0 0 #4fb67d; */
+  border: none;  
+  display: inline-block;
+  color: #ffffff;
+  font-size: 17px;
+  height: 40px;
+  padding: 5px 26px;
+  margin-left: -6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.button:hover {
+  background-color: #4fb67d;
+}
+
+.button:active {
+  position:relative;
+  top: 1px;
+}
+
+/********************* 
+BODY SECTIONS
+*********************/
+
+.body1, .body2, .body3, .body4, .body6 {
+  padding: 30px;
+}
+
+.body1 {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 500;
+  background-color: #4D9DE0;
+  padding-bottom: 65px;
+}
+
+
+.body2 {
+  background-color: #F0F6FB;
+}
+
+.body3 {
+  background-color: #F0F6FB;
+}
+
+.body4 {
+  background-color: #F0F6FB;
+}
+
+.body5 {
+  background-color: #CEE8E7;
+  min-height: 20px;
+  border-bottom: 1px #F0F6FB solid;
+}
+
+.body6 {
+  background-color: #4D9DE0;
+  padding-bottom: 50px;
+}
+
+.body7 {
+  background-color: #F0F6FB;
+}
+
+.gray-text {
+  font-weight: 300;
+  color: #C1D9EE;
+  font-size: 1.5em;
+}
+
+#third-message {
+  font-weight: 700;
+  color: white;
+  font-size: 1.75em;
+}
+
+.three3 {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.75em;
+}
+
+.col1 {
+  background-color: #CEE8E7;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.col1 li {
+  text-align: left;
+}
+/********************* 
+FOOTER
+*********************/
+
+footer {
+  background-color: #0b253b;
+}
+
+#copyright {
+  color: #6D757F;
+  text-align: center;
+  padding-top: 20px;
+}
+
