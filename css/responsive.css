@@ -1,10 +1,10 @@
 /********************* 
 MEDIA QUERIES 
 *********************/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 516px) {
    .button {
     border-radius: 0;
-    width: 100px;
+    width: 200px;
 
   }
   .email {
@@ -12,30 +12,48 @@ MEDIA QUERIES
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-}
-
-@media screen and (max-width: 709px) {
-
-.body3, .body4 {
-    border-top: #757575 dashed 1px;
-  }
-  #col1-a, #col1-b, #col1-c {
-  border-bottom: #F0F6FB solid 1px;
+  #header-text, #launch-headline {
+    font-size: 2em;
   }
 }
 
-@media screen and (min-width: 710px) {
-  .body2, .body3, .body4 {
+@media screen and (min-width: 513px) {
+   #header-text, #launch-headline {
+    font-size: 2.35em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #eBook-div, #coaching-div, #get-hired, #learn {
+    border-bottom: white solid 2px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+.email-perks {
     width: 33.333%;
   }
-  .body3, .body4 {
-    border-left: #757575 dashed 1px;
+}
+
+@media screen and (min-width: 600px) {
+
+  #eBook-div, #coaching-div {
+    border-right: white solid 2px;
   }
-  .col1 {
+
+  #learn, #have-fun, #get-hired {
     width: 33.333%;
   }
-  #col1-a, #col1-b {
-    border-right: #F0F6FB solid 1px;
+
+  #learn, #get-hired {
+    border-right: white solid 2px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+  }
+  #have-fun {
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
   }
 } 
 

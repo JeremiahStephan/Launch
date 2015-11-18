@@ -10,10 +10,6 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  color: white;
-}
-
 h4 {
   text-decoration: underline;
 }
@@ -49,6 +45,15 @@ MAIN CONTAINER
 HEADER
 *********************/
 
+#header-text {
+  color: white;
+}
+
+#launch-headline {
+  font-family: "Great Vibes", cursive;
+  color: #0b253b;
+}
+
 #container2 {
   width: 100%;
   padding: 10px;
@@ -79,11 +84,27 @@ HEADER
 }
 
 /********************* 
+BODY SECTIONS
+*********************/
+
+.body1, .learn, .have-fun, .getHired, .body6 {
+  padding: 30px;
+}
+
+.body1 {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 500;
+  background-color: #4D9DE0;
+  padding-bottom: 65px;
+}
+
+/********************* 
 Email Capture
 *********************/
 
 /* Input Field */
-.email{
+.email {
   font-size: 17px;
   display: inline-block;
   height: 40px;
@@ -105,7 +126,6 @@ Email Capture
   padding: 5px 26px;
   margin-left: -6px;
   text-decoration: none;
-  text-transform: uppercase;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -120,42 +140,153 @@ Email Capture
 }
 
 /********************* 
-BODY SECTIONS
+Email Perks
 *********************/
 
-.body1, .body2, .body3, .body4, .body6 {
-  padding: 30px;
+#eBook-div, #video-div, #coaching-div {
+  background-color: #F8F8F8;
 }
 
-.body1 {
-  padding-top: 40px;
+.text-blue {
+  color: #4D9DE0;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.email-perks {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.red-text {
+  color: #D2504D;
+  font-size: 1.75em;
+}
+
+.yellow-text {
+  color: #E0BC28;
+  font-size: 1.75em;
+}
+
+.purple-text {
+  color: #7768ad;
+  font-size: 1.75em;
+}
+
+.dark-gray-text {
+  color: #7F7F7F;
+  font-weight: 300;
+}
+
+#icon-person, #icon-book, #icon-play {
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#icon-person {
+  color: #E0BC28;
+  border: #E0BC28 1px solid;
+}
+
+#icon-book {
+  color: #D2504D;
+  border: #D2504D 1px solid;
+}
+
+#icon-play {
+  color: #7768AD;
+  border: #7768AD 1px solid;
+}
+
+.button-two {
+  border: none;  
+  outline: none;
+  display: inline-block;
   text-align: center;
-  font-weight: 500;
-  background-color: #4D9DE0;
-  padding-bottom: 65px;
+  padding: 1.1em 3em 1em;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  height: 35px;
+  padding: 5px 20px;
+  margin-left: -6px;
+  border-radius: 3%;
+}
+
+.button-two:active {
+  position:relative;
+  top: 1px;
+}
+
+#coaching-button {
+  background-color: #E0BC28;
+}
+
+#eBook-button {
+  background-color: #D2504D;
+}
+
+#play-button {
+  background-color: #7768AD;
+}
+
+.text1 {
+  line-height: 0.1
+}
+
+.free-text {
+  text-transform: uppercase;
+  color: #c3c9d1;
+  font-weight: 300;
+  letter-spacing: .1em;
+  font-size: 8pt;
+}
+
+/********************* 
+THREE IMAGE SECTION
+*********************/
+
+#get-hired {
+  background-image: url("../img/woman-bag.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+#learn {
+  background-image: url("../img/girl-library.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+#have-fun {
+  background-image: url("../img/table-tea.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.pic-text {
+  font-weight: 700;
+  background-color: #0b253b;
+  color: #4D9DE0;
+  font-size: 2em;
 }
 
 
-.body2 {
-  background-color: #F0F6FB;
-}
-
-.body3 {
-  background-color: #F0F6FB;
-}
-
-.body4 {
-  background-color: #F0F6FB;
-}
-
-.body5 {
-  background-color: #CEE8E7;
-  min-height: 20px;
-  border-bottom: 1px #F0F6FB solid;
-}
+/********************* 
+Get Started for free
+*********************/
 
 .body6 {
-  background-color: #4D9DE0;
+  background-color: #F0F6FB; /* #4D9DE0; */
   padding-bottom: 50px;
 }
 
@@ -175,20 +306,10 @@ BODY SECTIONS
   font-size: 1.75em;
 }
 
-.three3 {
-  font-weight: 700;
-  color: #333333;
-  font-size: 1.75em;
-}
-
-.col1 {
-  background-color: #CEE8E7;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.col1 li {
-  text-align: left;
+.dark-text {
+  color: #7B7C7C;
+  font-size: 1.5em;
+  font-weight: 300;
 }
 /********************* 
 FOOTER
