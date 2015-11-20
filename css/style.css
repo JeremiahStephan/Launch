@@ -15,8 +15,7 @@ h4 {
 }
 
 h5 {
-  font-style: italic;
-  color: #C1D9EE;
+  color: #CCE5F9;
 }
 
 p {
@@ -45,18 +44,10 @@ MAIN CONTAINER
 HEADER
 *********************/
 
-#header-text {
-  color: white;
-}
-
-#launch-headline {
-  font-family: "Great Vibes", cursive;
-  color: #0b253b;
-}
-
-#container2 {
+#top-container {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
+  background-color: #094F71;
 }
 
 .logo1 {
@@ -67,71 +58,69 @@ HEADER
 
 .header1 {
   width: 70%;
-  background-color: #FCFDFE;
   font-weight: 700;
   min-height: 50px;
   text-align: left;
 }
 
-#pl-logo {
+#company-logo {
   width: 60px;
   height: 60px;
 }
 
-#title1 {
-  font-size: 20px;
-  color: #4D9DE0;
+#company-title {
+  font-size: 25px;
+  color: #fff;
 }
 
 /********************* 
-BODY SECTIONS
+CALL TO ACTION
 *********************/
 
-.body1, .learn, .have-fun, .getHired, .body6 {
-  padding: 30px;
-}
-
-.body1 {
-  padding-top: 40px;
+.call-to-action {
+  padding-top: 50px;
   text-align: center;
-  font-weight: 500;
-  background-color: #4D9DE0;
-  padding-bottom: 65px;
+  background-color: #0098DB;
+  padding-bottom: 40px;
 }
 
-/********************* 
-Email Capture
-*********************/
+#text-call-to-action {
+  color: #fff;
+  font-size: 20pt;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 35px;
+}
 
 /* Input Field */
 .email {
-  font-size: 17px;
   display: inline-block;
-  height: 40px;
-  padding: 5px 26px;
-  border: none;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  background-color: #fff;
+  border: #F8991D solid 2px;
+  height: 50px;
+  width: 275px;
+  font-size: 17px;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 8px;
+  
 }
 
 /* button */
 .button {
-  background-color: #69cb95;
-  box-shadow: none; /* inset 0px -2px 0 0 #4fb67d; */
-  border: none;  
   display: inline-block;
-  color: #ffffff;
+  background-color: #F8991D;
+  border: #F8991D solid 2px;
+  height: 50px;
+  width: 200px;
   font-size: 17px;
-  height: 40px;
-  padding: 5px 26px;
-  margin-left: -6px;
-  text-decoration: none;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 .button:hover {
-  background-color: #4fb67d;
+  background-color: #E78411;
 }
 
 .button:active {
@@ -143,8 +132,26 @@ Email Capture
 Email Perks
 *********************/
 
-#eBook-div, #video-div, #coaching-div {
-  background-color: #F8F8F8;
+.small-text, #second-heading, .email-perks, .second-email {
+  background-color: #F0F6FB;
+}
+
+.small-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #094F71;
+  font-weight: 700;
+  padding: 30px;
+  min-height: 50px;
+}
+
+#second-heading {
+  color: #0098DB;
+  font-size: 20pt;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-bottom: 30px;
+  min-height: 60px;
 }
 
 .text-blue {
@@ -154,97 +161,64 @@ Email Perks
 }
 
 .email-perks {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.red-text {
-  color: #D2504D;
-  font-size: 1.75em;
-}
-
-.yellow-text {
-  color: #E0BC28;
-  font-size: 1.75em;
-}
-
-.purple-text {
-  color: #7768ad;
-  font-size: 1.75em;
+  color: #094F71;
+  font-size: 12pt; 
+  padding-top: 15px;
 }
 
 .dark-gray-text {
   color: #7F7F7F;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text1 {
+  line-height: 0.1;
+  color: #0098DB;
 }
 
 #icon-person, #icon-book, #icon-play {
   font-size: 35px;
-  padding: 15px;
+  padding: 12px;
   border-radius: 50%;
+  color: #0098DB;
+  border: #0098DB 1px solid;
 }
 
-#icon-person {
-  color: #E0BC28;
-  border: #E0BC28 1px solid;
+/* Wells */
+#eBook-div {
+  border-left: #F0F6FB 20px solid;
+  border-right: #F0F6FB 20px solid;
+  background-color: #fff;
 }
 
-#icon-book {
-  color: #D2504D;
-  border: #D2504D 1px solid;
+#coaching-div {
+  background-color: #fff;
 }
 
-#icon-play {
-  color: #7768AD;
-  border: #7768AD 1px solid;
+#video-div {
+  border-left: #F0F6FB 20px solid;
+  border-right: #F0F6FB 20px solid;
+  background-color: #fff;
 }
 
-.button-two {
-  border: none;  
-  outline: none;
-  display: inline-block;
-  text-align: center;
-  padding: 1.1em 3em 1em;
-  color: #fff;
-  line-height: 1;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 13px;
-  height: 35px;
-  padding: 5px 20px;
-  margin-left: -6px;
-  border-radius: 3%;
-}
-
-.button-two:active {
-  position:relative;
-  top: 1px;
-}
-
-#coaching-button {
-  background-color: #E0BC28;
-}
-
-#eBook-button {
-  background-color: #D2504D;
-}
-
-#play-button {
-  background-color: #7768AD;
-}
-
-.text1 {
-  line-height: 0.1
+#dark-blue-text {
+  color: #c3c9d1;
 }
 
 .free-text {
   text-transform: uppercase;
-  color: #c3c9d1;
+  color: #c3c9d1; 
   font-weight: 300;
   letter-spacing: .1em;
   font-size: 8pt;
 }
 
+/* bottom email div */
+.second-email {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
 /********************* 
 THREE IMAGE SECTION
 *********************/
@@ -280,37 +254,6 @@ THREE IMAGE SECTION
   font-size: 2em;
 }
 
-
-/********************* 
-Get Started for free
-*********************/
-
-.body6 {
-  background-color: #F0F6FB; /* #4D9DE0; */
-  padding-bottom: 50px;
-}
-
-.body7 {
-  background-color: #F0F6FB;
-}
-
-.gray-text {
-  font-weight: 300;
-  color: #C1D9EE;
-  font-size: 1.5em;
-}
-
-#third-message {
-  font-weight: 700;
-  color: white;
-  font-size: 1.75em;
-}
-
-.dark-text {
-  color: #7B7C7C;
-  font-size: 1.5em;
-  font-weight: 300;
-}
 /********************* 
 FOOTER
 *********************/
